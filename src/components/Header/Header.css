@@ -1,0 +1,38 @@
+.header {
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2274a5ff;
+}
+
+.header__nav {
+}
+
+.header__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 30px;
+  height: 30px;
+}
+
+.header__link {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #e9f1f7ff;
+}
+
+.header__input {
+}
+
+.header__theme-icon {
+  color: #e9f1f7ff;
+  width: 18px;
+  height: 18px;
+}
