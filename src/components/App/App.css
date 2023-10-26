@@ -1,0 +1,23 @@
+/*
+Палитра 
+blue: #2274a5ff;
+pearl: #e7dfc6ff;
+grey: #e9f1f7ff;
+black: #131b23ff;
+brown: #816c61ff;
+red: #C3423F;
+*/
+
+.app {
+  /*
+   
+   font-family: 'Caveat', cursive;
+   font-family: 'Comfortaa', sans-serif;
+  */
+  font-family: 'Geologica', sans-serif;
+  font-weight: 100;
+  background-color: #e9f1f7ff;
+  color: #131b23ff;
+  /* Не забыть обнулить */
+  height: 3000px;
+}
