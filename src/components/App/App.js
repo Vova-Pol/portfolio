@@ -1,4 +1,5 @@
 import { Footer } from '../Footer/Footer';
+import { Greeting } from '../Greeting/Greeting';
 import { Header } from '../Header/Header';
 import './App.css';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="app">
       <Header />
       <main>
+        <Greeting />
         <section id="skills" className="skills"></section>
         <section id="projects" className="projects"></section>
         <section className="quote"></section>
