@@ -1,6 +1,7 @@
 import { Footer } from '../Footer/Footer';
 import { Greeting } from '../Greeting/Greeting';
 import { Header } from '../Header/Header';
+import { Projects } from '../Projects/Projects';
 import './App.css';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
       <Header />
       <main>
         <Greeting />
+        <Projects />
         <section id="skills" className="skills"></section>
-        <section id="projects" className="projects"></section>
         <section className="quote"></section>
         <section id="movie-explorer" className="movie-explorer"></section>
         <section id="traveler" className="traveler"></section>
