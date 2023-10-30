@@ -5,6 +5,8 @@ pearl: #e7dfc6ff;
 grey: #e9f1f7ff;
 black: #131b23ff;
 brown: #816c61ff;
+light-brown: #885b44;
+dark-brown: #50423b;
 red: #C3423F;
 */
 
@@ -15,10 +17,25 @@ red: #C3423F;
    font-family: 'Comfortaa', sans-serif;
   */
   font-family: 'Geologica', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   background-color: #e9f1f7ff;
   color: #131b23ff;
   box-sizing: border-box;
   /* Не забыть обнулить */
   height: 3000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

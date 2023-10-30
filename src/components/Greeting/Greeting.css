@@ -2,6 +2,8 @@
   padding: 0 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .greeting__avatar {
@@ -17,8 +19,8 @@
 
 .greeting__title {
   font-weight: 300;
-  margin: 0;
   padding-top: 35px;
+  margin-bottom: 10px;
 }
 
 .greeting__title_type_enlarged {
@@ -66,4 +68,9 @@
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   color: #c3423f;
+}
+
+.greeting__text {
+  margin-bottom: 10px;
+  font-weight: 200;
 }
