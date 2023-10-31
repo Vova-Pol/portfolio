@@ -10,7 +10,7 @@ export const Greeting = () => {
         <h1 className="greeting__title">
           <span className="greeting__title_type_enlarged">
             Привет!
-            <span class="greeting__waving-hand">👋</span>
+            <span className="greeting__waving-hand">👋</span>
           </span>
           <br /> Меня зовут Владимир
           <br />Я –{' '}
