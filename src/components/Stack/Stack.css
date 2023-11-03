@@ -1,0 +1,155 @@
+.stack {
+  background-color: #e7dfc6ff;
+  padding: 65px 80px 40px 80px;
+}
+
+.stack__title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #885b44;
+  font-size: 28px;
+}
+
+.stack__back-front-list {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stack__subtitle {
+  font-family: 'Caveat', cursive;
+  color: #50423b;
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+/* .stack__line {
+  border: 0;
+  height: 1px;
+  background: #50423b;
+  background-image: linear-gradient(left, #ccc, #50423b, #ccc);
+} */
+
+.stack__line {
+  margin: 10px 0;
+  height: 4px;
+  background: rgb(211, 203, 180);
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.stack__line:after {
+  content: '';
+  height: 4px;
+  background: #a47b67;
+  position: absolute;
+  width: 20%;
+  top: 0;
+  animation: anim-hr 5s linear infinite;
+}
+@keyframes anim-hr {
+  0% {
+    left: -20%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.stack__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stack__skill-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.stack__skill {
+  font-size: 15px;
+}
+
+/* ----------------- Icon Colors */
+
+.html {
+  color: #f27139;
+}
+
+.css {
+  color: #2082fe;
+}
+
+.js {
+  color: #e3aa46;
+}
+
+.react {
+  color: #2edcfc;
+}
+
+.webpack {
+  color: #3081c3;
+}
+
+.typescript {
+  color: #4081cb;
+}
+
+.redux {
+  color: #7e53bf;
+}
+
+.express {
+  color: #444444;
+}
+
+.mongoose {
+  color: #851513;
+}
+
+.mongodb {
+  color: #5bae57;
+}
+
+.java {
+  color: #e57b1e;
+}
+
+.spring {
+  color: #72c251;
+}
+
+.mysql {
+  color: #4f80a7;
+}
+
+.git {
+  color: #f25d42;
+}
+
+.vs-code {
+  color: #2282cf;
+}
+
+.intellij {
+  color: #c786cf;
+}
+
+.npm {
+  color: #d04543;
+}
+
+.postman {
+  color: #fe7543;
+}
+
+.docker {
+  color: #379ced;
+}
+
+.macos {
+  color: #848484;
+}
