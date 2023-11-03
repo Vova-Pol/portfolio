@@ -26,13 +26,13 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/#skills" className="header__link">
-              Скилы
+            <Link to="/#projects" className="header__link">
+              Проекты
             </Link>
           </li>
           <li>
-            <Link to="/#projects" className="header__link">
-              Проекты
+            <Link to="/#stack" className="header__link">
+              Стек
             </Link>
           </li>
           <li>
