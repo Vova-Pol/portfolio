@@ -1,6 +1,7 @@
 .projects {
   padding: 50px 80px 0 80px;
-  background-color: #e7dfc6ff;
+  background-color: #2274a5ff;
+  color: #e9f1f7ff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +11,6 @@
   text-align: center;
   margin-bottom: 65px;
   max-width: 500px;
-  color: #50423b;
   font-size: 28px;
 }
 
@@ -18,7 +18,7 @@
   font-family: 'Caveat', cursive;
   font-size: 40px;
   font-weight: 400;
-  color: #885b44;
+  color: #a1d8f9;
 }
 
 .projects__projects-list {
