@@ -20,7 +20,7 @@
 .greeting__title {
   font-weight: 300;
   padding-top: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .greeting__title_type_enlarged {
@@ -71,6 +71,38 @@
 }
 
 .greeting__text {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-weight: 200;
+  font-size: 18px;
+}
+
+.greeting__buttons-container {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.greeting__link {
+  text-decoration: none;
+  background-color: #885b44;
+}
+
+.greeting__button,
+.greeting__link {
+  color: #e9f1f7ff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.greeting__button {
+  background-color: #c3423f;
+  border: none;
+  cursor: pointer;
+}
+
+.greeting__button:hover,
+.greeting__link:hover {
+  filter: contrast(1.2);
+  transform: translateY(-2px);
 }

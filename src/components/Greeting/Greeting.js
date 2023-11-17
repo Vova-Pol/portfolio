@@ -1,5 +1,9 @@
 import React from 'react';
 import './Greeting.css';
+import { Link } from 'react-router-dom';
+import { GITHUB_URL, LEETCODE_URL } from '../../utils/constants';
+import { SiGithub, SiLeetcode } from 'react-icons/si';
+import { MdDownload } from 'react-icons/md';
 const avatar = require('../../images/avatar.jpg');
 
 export const Greeting = () => {
@@ -19,22 +23,22 @@ export const Greeting = () => {
           </span>
         </h1>
         <p className="greeting__text">
-          Увлекся программированием в 2022 году. Сначала писал простые
-          HTML/CSS/JS сайты с адаптивной версткой и скромным функционалом.
+          Моя цель – найти команду увлеченных людей и работать над интересным,
+          стоящим проектом. Рассматриваю как крупны компании, так и начинающие
+          старт-апы.
         </p>
-        <p className="greeting__text">
-          Потом начал работать с React, пытался познать Webpack, изучил
-          Typescript и написал несколько пробных проектов с Redux Toolkit.
-        </p>
-        <p className="greeting__text">
-          После года обучения frontend-разработке заинтересовался серверной
-          стороной приложений. Увлекся темой алгоритмов и типов данных {'('}
-          Привет, LeetCode и толстые учебники по CS{')'}.
-        </p>
-        <p className="greeting__text">
-          В 2023 взялся за изучение языка Java, основ бэкенда и фреймворка
-          Spring Boot.
-        </p>
+        <div className="greeting__buttons-container">
+          <Link to={GITHUB_URL} className="greeting__link" target="_blank">
+            <SiGithub /> GitHub
+          </Link>
+          <Link to={LEETCODE_URL} className="greeting__link" target="_blank">
+            <SiLeetcode /> LeetCode
+          </Link>
+        </div>
+        <button className="greeting__button">
+          <MdDownload />
+          Скачать CV
+        </button>
       </article>
     </section>
   );
