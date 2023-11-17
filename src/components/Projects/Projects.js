@@ -6,7 +6,7 @@ const proj2 = require('../../images/test-web-preview-2.jpeg');
 export const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h2 className="projects__title">Портфолио</h2>
+      <h2 className="projects__title">Проекты</h2>
       <ul className="projects__projects-list">
         <li className="projects__list-item">
           <img

@@ -12,7 +12,6 @@ import {
   BiLogoGit,
   BiLogoVisualStudio,
   BiLogoApple,
-  BiLogoDocker,
 } from 'react-icons/bi';
 import {
   SiExpress,
@@ -29,7 +28,7 @@ import { DiNpm } from 'react-icons/di';
 export const Stack = () => {
   return (
     <section id="stack" className="stack">
-      <h2 className="stack__title">Мой Стек</h2>
+      <h2 className="stack__title">Стек</h2>
       <ul className="stack__back-front-list">
         <li className="stack__list-container">
           <h3 className="stack__subtitle">Frontend</h3>
@@ -120,10 +119,6 @@ export const Stack = () => {
             <li className="stack__list-item">
               <SiPostman className="stack__skill-icon postman" />
               <span className="stack__skill">Postman</span>
-            </li>
-            <li className="stack__list-item">
-              <BiLogoDocker className="stack__skill-icon docker" />
-              <span className="stack__skill">Docker</span>
             </li>
             <li className="stack__list-item">
               <BiLogoApple className="stack__skill-icon macos" />

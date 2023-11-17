@@ -22,8 +22,6 @@ red: #c3423f;
   background-color: #e9f1f7ff;
   color: #131b23ff;
   box-sizing: border-box;
-  /* Не забыть обнулить */
-  height: 3000px;
 }
 
 h1,

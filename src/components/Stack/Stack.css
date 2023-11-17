@@ -1,13 +1,12 @@
 .stack {
-  background-color: #e7dfc6ff;
   padding: 65px 80px 40px 80px;
 }
 
 .stack__title {
   text-align: center;
   margin-bottom: 40px;
-  color: #885b44;
   font-size: 28px;
+  color: #0e4b80;
 }
 
 .stack__back-front-list {
@@ -19,7 +18,7 @@
 
 .stack__subtitle {
   font-family: 'Caveat', cursive;
-  color: #50423b;
+  color: #2274a5ff;
   font-size: 37px;
   margin-bottom: 20px;
 }
@@ -34,7 +33,7 @@
 .stack__line {
   margin: 10px 0;
   height: 4px;
-  background: rgb(211, 203, 180);
+  background: #b6daf0;
   position: relative;
   overflow: hidden;
   border: none;
@@ -42,7 +41,7 @@
 .stack__line:after {
   content: '';
   height: 4px;
-  background: #a47b67;
+  background: #2274a5ff;
   position: absolute;
   width: 20%;
   top: 0;
