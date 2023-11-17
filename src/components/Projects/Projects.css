@@ -10,15 +10,10 @@
 .projects__title {
   text-align: center;
   margin-bottom: 65px;
-  max-width: 500px;
-  font-size: 28px;
-}
-
-.projects__title_type-decorated {
   font-family: 'Caveat', cursive;
-  font-size: 40px;
+  max-width: 500px;
+  font-size: 50px;
   font-weight: 400;
-  color: #a1d8f9;
 }
 
 .projects__projects-list {

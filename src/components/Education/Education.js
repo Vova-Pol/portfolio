@@ -77,9 +77,11 @@ export const Education = () => {
           </p>
           <p className="education__item-text">
             На данный момент я прохожу курс с многообещающим названием: Advanced
-            React: Design System, Design Patterns, Performance. Тут непросто, и
-            есть ощущение, что курс выходит за рамки junior-разработчика. Но от
-            этого становится только интереснее.
+            React: Design System, Design Patterns, Performance.
+          </p>
+          <p className="education__item-text">
+            Тут непросто, и есть ощущение, что курс выходит за рамки
+            junior-разработчика. Но от этого становится только интереснее!
           </p>
         </li>
       </ul>
