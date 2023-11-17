@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Header.css';
 import { LiaLaptopCodeSolid } from 'react-icons/lia';
-import { FaLightbulb, FaRegLightbulb } from 'react-icons/fa6';
+import { FaReact } from 'react-icons/fa';
 
 export const Header = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -48,19 +48,7 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="header__input-container">
-        {/* <input
-          className="header__input"
-          type="checkbox"
-          checked={isDarkTheme}
-          onChange={handleChangeTheme}
-        ></input> */}
-        <span onClick={handleChangeTheme}>
-          {isDarkTheme ? (
-            <FaLightbulb className="header__theme-icon" />
-          ) : (
-            <FaRegLightbulb className="header__theme-icon" />
-          )}
-        </span>
+        <FaReact className="header__icon" />
       </div>
     </header>
   );
