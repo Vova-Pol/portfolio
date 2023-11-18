@@ -83,19 +83,18 @@
 }
 
 .greeting__link {
-  text-decoration: none;
   background-color: #885b44;
 }
 
 .greeting__button,
 .greeting__link {
-  color: #e9f1f7ff;
   padding: 10px 25px;
   border-radius: 25px;
   transition: all 0.3s ease;
 }
 
 .greeting__button {
+  color: #e9f1f7ff;
   background-color: #c3423f;
   border: none;
   cursor: pointer;
