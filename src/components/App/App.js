@@ -1,3 +1,4 @@
+import { Contacts } from '../Contacts/Contacts';
 import { Education } from '../Education/Education';
 import { Footer } from '../Footer/Footer';
 import { Greeting } from '../Greeting/Greeting';
@@ -16,7 +17,7 @@ function App() {
         <Education />
         <Projects />
         <Stack />
-        <section id="contacts" className="contacts"></section>
+        <Contacts />
       </main>
       <Footer />
     </div>
