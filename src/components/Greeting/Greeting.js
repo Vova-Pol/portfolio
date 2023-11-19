@@ -31,14 +31,11 @@ export const Greeting = () => {
           <Link to={GITHUB_URL} className="greeting__link" target="_blank">
             <SiGithub /> GitHub
           </Link>
-          <Link to={LEETCODE_URL} className="greeting__link" target="_blank">
-            <SiLeetcode /> LeetCode
-          </Link>
+          <button className="greeting__button">
+            <MdDownload />
+            Скачать CV
+          </button>
         </div>
-        <button className="greeting__button">
-          <MdDownload />
-          Скачать CV
-        </button>
       </article>
     </section>
   );

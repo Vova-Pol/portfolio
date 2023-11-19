@@ -41,7 +41,7 @@ export const Education = () => {
           </p>
           <p className="education__item-text">
             Типизация на TS далась достаточно легко: хватило чтения документации
-            и практики на учебных проектах (возможно, я просто капнул
+            и практики на учебных проектах (возможно, я просто копнул
             недостаточно глубоко&#129300;)
           </p>
           <p className="education__item-text">
@@ -54,7 +54,7 @@ export const Education = () => {
           <h3 className="education__item-title">Java 17 Masterclass</h3>
           <p className="education__item-subtitle">Udemy.com</p>
           <p className="education__item-text">
-            При работе над пет-проектом понял, что мне не хватает знанией по
+            При работе над пет-проектом понял, что не хватает знанией по
             структурам данных и устройству бэкенд части приложения. Поэтому
             решил освоить новый ЯП, более подходящий для таких целей.
           </p>
@@ -63,7 +63,7 @@ export const Education = () => {
           <h3 className="education__item-title">Spring Boot 3 with Java</h3>
           <p className="education__item-subtitle">Udemy.com</p>
           <p className="education__item-text">
-            Почувствовав уверенность в работе с Java, я взялся за освоение
+            Почувствовав уверенность в работе с Java, взялся за освоение
             фреймворка Spring. Писать бэкенд – сложно, но можно&#129299;
           </p>
         </li>
@@ -71,17 +71,17 @@ export const Education = () => {
           <h3 className="education__item-title">Advanced React</h3>
           <p className="education__item-subtitle">Udemy.com</p>
           <p className="education__item-text">
-            Фронтенд – это у меня в крови. Написав несколько пробных проектов на
-            Spring Boot, я вернулся к React. Захотелось углубить знания и узнать
-            новые подходы к разработке.
+            Фронтенд – это моё. Написав несколько пробных проектов на Spring
+            Boot, я вернулся к React. Захотелось углубить знания и узнать новые
+            подходы к разработке.
           </p>
           <p className="education__item-text">
-            На данный момент я прохожу курс с многообещающим названием: Advanced
+            На данный момент прохожу курс с многообещающим названием: Advanced
             React: Design System, Design Patterns, Performance.
           </p>
           <p className="education__item-text">
             Тут непросто, и есть ощущение, что курс выходит за рамки
-            junior-разработчика. Но от этого становится только интереснее!
+            junior-разработчика. Но от этого только интереснее!
           </p>
         </li>
       </ul>
