@@ -1,2 +1,92 @@
 .contacts {
+  padding: 50px 80px 15px 80px;
+  background-color: #e7dfc6ff;
+  color: #e9f1f7ff;
+}
+
+.contacts__container {
+  background-color: #885b44;
+  border-radius: 15px;
+  padding: 20px 20px 80px 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.contacts__title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: #e9f1f7ff;
+  font-size: 28px;
+}
+
+.contacts-email-icon {
+  width: 250px;
+  height: 250px;
+}
+
+.contacts__form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__form-title {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.contacts__label {
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.contacts__input,
+.contacts__textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 7px 12px;
+  font-weight: 300;
+}
+
+.contacts__input:focus-visible,
+.contacts__textarea:focus-visible {
+  outline: none;
+}
+
+.contacts__input {
+  margin-bottom: 18px;
+}
+
+.contacts__textarea {
+  min-height: 170px;
+  margin-bottom: 40px;
+}
+
+.contacts__button {
+  padding: 10px 15px;
+  background-color: #e7dfc6ff;
+  width: 40%;
+  margin: 0 auto;
+  color: #50423b;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contacts__button:hover {
+  filter: contrast(1.2);
 }
