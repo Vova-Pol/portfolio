@@ -10,7 +10,7 @@ export const Contacts = () => {
           <EmailIcon className="contacts-email-icon" />
         </div>
         <form className="contacts__form">
-          <h3 className="contacts__form-title">Напиши мне</h3>
+          <h3 className="contacts__form-title">Форма связи</h3>
           <label className="contacts__label">От кого:</label>
           <input
             type="text"
