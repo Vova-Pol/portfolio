@@ -1,0 +1,37 @@
+.footer {
+  padding: 50px 80px 40px 80px;
+  background-color: #2274a5;
+  color: #e9f1f7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__title {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.footer__contacts-item {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  margin-bottom: 7px;
+}
+.footer__contacts-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__contacts-icon {
+  margin-right: 5px;
+}
+
+.footer__message {
+  font-weight: 100;
+  max-width: 300px;
+}
+
+.footer__text {
+  margin-bottom: 10px;
+}
