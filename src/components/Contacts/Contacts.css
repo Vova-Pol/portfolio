@@ -4,6 +4,13 @@
   color: #e9f1f7ff;
 }
 
+.contacts__title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #885b44;
+  font-size: 28px;
+}
+
 .contacts__container {
   background-color: #885b44;
   border-radius: 15px;
@@ -19,14 +26,6 @@
   justify-content: center;
   align-items: center;
   width: 40%;
-}
-
-.contacts__title {
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: 400;
-  color: #e9f1f7ff;
-  font-size: 28px;
 }
 
 .contacts-email-icon {

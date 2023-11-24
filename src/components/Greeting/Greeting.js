@@ -23,9 +23,8 @@ export const Greeting = () => {
           </span>
         </h1>
         <p className="greeting__text">
-          Моя цель – найти команду увлеченных людей и работать над интересным,
-          стоящим проектом. Рассматриваю как крупны компании, так и начинающие
-          старт-апы.
+          Моя цель – найти команду увлеченных людей, работать над интересным
+          проектом и развиваться как разработчик.
         </p>
         <div className="greeting__buttons-container">
           <Link to={GITHUB_URL} className="greeting__link" target="_blank">

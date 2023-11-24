@@ -5,6 +5,7 @@ import { ReactComponent as EmailIcon } from '../../images/contacts-mail.svg';
 export const Contacts = () => {
   return (
     <section id="contacts" className="contacts">
+      <h2 className="contacts__title">Контакты</h2>
       <div className="contacts__container">
         <div className="contacts__icon-container">
           <EmailIcon className="contacts-email-icon" />

@@ -16,31 +16,29 @@ export const Header = () => {
       <nav className="header__nav">
         <ul className="header__list">
           <li>
-            <Link to="/" className="header__link">
-              <LiaLaptopCodeSolid className="header__logo" />
-            </Link>
+            <LiaLaptopCodeSolid className="header__logo" />
           </li>
-          <li>
+          <li className="header__item">
             <Link to="/" className="header__link">
               Главная
             </Link>
           </li>
-          <li>
+          <li className="header__item">
             <Link to="/#education" className="header__link">
               Образование
             </Link>
           </li>
-          <li>
+          <li className="header__item">
             <Link to="/#projects" className="header__link">
               Проекты
             </Link>
           </li>
-          <li>
+          <li className="header__item">
             <Link to="/#stack" className="header__link">
               Стек
             </Link>
           </li>
-          <li>
+          <li className="header__item">
             <Link to="/#contacts" className="header__link">
               Контакты
             </Link>

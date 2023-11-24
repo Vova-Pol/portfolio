@@ -21,11 +21,22 @@
 .header__logo {
   width: 30px;
   height: 30px;
+  color: #e9f1f7ff;
+  margin-right: 25px;
+}
+
+.header__item {
+  transition: all 0.2s ease-in-out;
 }
 
 .header__link {
   margin-right: 25px;
   font-weight: 200;
+}
+
+.header__item:hover {
+  filter: contrast(1.2);
+  transform: translateY(-2px);
 }
 
 .header__icon {

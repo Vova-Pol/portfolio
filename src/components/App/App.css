@@ -1,22 +1,29 @@
 /*
-Палитра 
-blue: #2274a5ff;
-light-blue: #a1d8f9;
-pearl: #e7dfc6ff;
-grey: #e9f1f7ff;
-black: #131b23ff;
-brown: #816c61ff;
-light-brown: #885b44;
-dark-brown: #50423b;
-red: #c3423f;
+    Палитра 
+
+    blue: #2274a5ff;
+    light-blue: #a1d8f9;
+    pearl: #e7dfc6ff;
+    grey: #e9f1f7ff;
+    black: #131b23ff;
+    brown: #816c61ff;
+    light-brown: #885b44;
+    dark-brown: #50423b;
+    red: #c3423f;
 */
 
+/*
+    Дополнительные шрифты 
+
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 .app {
-  /*
-   
-   font-family: 'Caveat', cursive;
-   font-family: 'Comfortaa', sans-serif;
-  */
   font-family: 'Geologica', sans-serif;
   font-weight: 200;
   background-color: #e9f1f7ff;
