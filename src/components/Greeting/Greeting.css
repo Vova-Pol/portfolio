@@ -78,30 +78,39 @@
 
 .greeting__buttons-container {
   display: flex;
+  align-items: center;
   column-gap: 10px;
   margin-bottom: 10px;
 }
 
-.greeting__link {
-  background-color: #885b44;
-}
-
-.greeting__button,
 .greeting__link {
   padding: 10px 25px;
   border-radius: 25px;
   transition: all 0.3s ease;
 }
 
-.greeting__button {
-  color: #e9f1f7ff;
+.greeting__link_type_github {
+  background-color: #885b44;
+}
+
+.greeting__link_type_cv {
   background-color: #c3423f;
-  border: none;
-  cursor: pointer;
 }
 
 .greeting__button:hover,
 .greeting__link:hover {
   filter: contrast(1.2);
   transform: translateY(-2px);
+}
+
+.greeting__success-icon {
+  width: 29px;
+  height: 29px;
+  color: #49b349;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.greeting__success-icon_shown {
+  opacity: 1;
 }
