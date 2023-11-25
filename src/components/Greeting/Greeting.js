@@ -26,7 +26,7 @@ export const Greeting = () => {
         </h1>
         <p className="greeting__text">
           Моя цель – найти команду увлеченных людей, работать над интересным
-          проектом и развиваться как разработчик.
+          проектом и развиваться как программист.
         </p>
         <div className="greeting__buttons-container">
           <Link
