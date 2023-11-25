@@ -4,6 +4,7 @@ import { Footer } from '../Footer/Footer';
 import { Greeting } from '../Greeting/Greeting';
 import { Header } from '../Header/Header';
 import { Projects } from '../Projects/Projects';
+import { ScrollToTopButton } from '../ScrollToTopButton/ScrollToTopButton';
 
 import { Stack } from '../Stack/Stack';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
         <Projects />
         <Stack />
         <Contacts />
+        <ScrollToTopButton />
       </main>
       <Footer />
     </div>
