@@ -27,11 +27,6 @@
   margin-right: 5px;
 }
 
-.footer__message {
+.footer__author {
   font-weight: 100;
-  max-width: 300px;
-}
-
-.footer__text {
-  margin-bottom: 10px;
 }

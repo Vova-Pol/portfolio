@@ -23,14 +23,9 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="footer__message">
-        <p className="footer__text">
-          Буду рад обратной связи по любому из представленных проектов &#128578;
-        </p>
-        <p className="footer__author">
-          &#169; {new Date().getFullYear()}. Поляница Владимир
-        </p>
-      </div>
+      <p className="footer__author">
+        &#169; {new Date().getFullYear()}. Поляница Владимир
+      </p>
     </footer>
   );
 };
