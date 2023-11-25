@@ -14,7 +14,7 @@
 .contacts__container {
   background-color: #885b44;
   border-radius: 15px;
-  padding: 20px 20px 80px 20px;
+  padding: 20px 20px 50px 20px;
   display: flex;
   justify-content: space-around;
   max-width: 900px;
@@ -66,12 +66,27 @@
 }
 
 .contacts__input {
-  margin-bottom: 18px;
+  margin-bottom: 5px;
+}
+
+.contacts__error {
+  color: #ff5b57;
+  padding-left: 8px;
+  font-size: 12px;
+  min-height: 15px;
+}
+
+.contacts__error_type_double-line {
+  min-height: 30px;
+}
+
+.contacts__error:last-of-type {
+  margin-bottom: 30px;
 }
 
 .contacts__textarea {
   min-height: 170px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 .contacts__button {
@@ -82,10 +97,63 @@
   color: #50423b;
   border: none;
   border-radius: 30px;
+  margin-bottom: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.contacts__button:hover {
+.contacts__button:disabled {
+  opacity: 0.7;
+  cursor: initial;
+}
+
+.contacts__button:hover:enabled {
   filter: contrast(1.2);
+}
+
+.contacts__loading-icon {
+  -webkit-animation: rotating 1s linear infinite;
+  -moz-animation: rotating 1s linear infinite;
+  -ms-animation: rotating 1s linear infinite;
+  -o-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
+  color: #885b44;
+  width: 17px;
+  height: 17px;
+}
+
+@keyframes contacts__loading-icon {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.contacts__result-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.contacts__result-message_type_success {
+  color: #6fec6f;
+  opacity: 1;
+}
+
+.contacts__result-message_type_error {
+  color: #ff5b57;
+  opacity: 1;
 }
