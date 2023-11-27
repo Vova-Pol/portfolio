@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.83f341c3.css",
+    "main.js": "/portfolio/static/js/main.dff3e7d0.js",
+    "static/media/russian-travel-prev-2.png": "/portfolio/static/media/russian-travel-prev-2.99823572d183418c31a0.png",
+    "static/media/russian-travel-prev-3.png": "/portfolio/static/media/russian-travel-prev-3.32ad23bfccc0ee235bdc.png",
+    "static/media/russian-travel-prev-1.png": "/portfolio/static/media/russian-travel-prev-1.38a8de5851a94c30284b.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.c7b4848af4b13c6e4c3c.jpg",
+    "static/media/contacts-mail.svg": "/portfolio/static/media/contacts-mail.0f66d0b183aa1f078ae51d1624ed1a17.svg",
+    "index.html": "/portfolio/index.html",
+    "main.83f341c3.css.map": "/portfolio/static/css/main.83f341c3.css.map",
+    "main.dff3e7d0.js.map": "/portfolio/static/js/main.dff3e7d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83f341c3.css",
+    "static/js/main.dff3e7d0.js"
+  ]
+}
