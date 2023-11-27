@@ -62,4 +62,23 @@ export const PROJECTS = [
       'Бекэнд: Spring Boot + MySQL',
     ],
   },
+  {
+    title: 'Сервис изучения иностранного языка',
+    images: [russianTravel1, russianTravel2, russianTravel3],
+    imageAlt: 'Сервис изучения иностранного языка',
+    demoUrl: 'https://vova-pol.github.io/my-chinese-tool',
+    githubUrl: 'https://github.com/Vova-Pol/my-chinese-tool',
+    technology: 'Fullstack',
+    difficulty: [5, 0],
+    functionality: [
+      'Добавление списков слов',
+      'Повторние с карточками',
+      'Повторение по видео',
+      'Шкала прогресса',
+      'Поиск по словарю с указанием частотности',
+      'Инструмент "5000 иероглифов"',
+      'Фронтенд: React + Typescript',
+      'Бекэнд: Express.js + MongoDB',
+    ],
+  },
 ];

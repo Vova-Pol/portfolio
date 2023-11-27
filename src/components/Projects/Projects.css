@@ -21,6 +21,10 @@
   display: flex;
   justify-content: center;
   column-gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
 }
 
 .projects__list-item {
