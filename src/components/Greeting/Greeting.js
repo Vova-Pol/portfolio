@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Greeting.css';
 import { Link } from 'react-router-dom';
-import { GITHUB_URL, LEETCODE_URL } from '../../utils/constants';
-import { SiGithub, SiLeetcode } from 'react-icons/si';
+import { GITHUB_URL } from '../../utils/constants';
+import { SiGithub } from 'react-icons/si';
 import { MdDownload } from 'react-icons/md';
 import { CiBookmarkCheck } from 'react-icons/ci';
 const avatar = require('../../images/avatar.jpg');
