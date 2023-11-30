@@ -7,38 +7,6 @@
   margin-bottom: 80px;
 }
 
-.header__nav {
-}
-
-.header__list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.header__logo {
-  width: 30px;
-  height: 30px;
-  color: #e9f1f7ff;
-  margin-right: 25px;
-}
-
-.header__item {
-  transition: all 0.2s ease-in-out;
-}
-
-.header__link {
-  margin-right: 25px;
-  font-weight: 200;
-}
-
-.header__item:hover {
-  filter: contrast(1.2);
-  transform: translateY(-2px);
-}
-
 .header__icon {
   color: #00d8fe;
   width: 30px;
@@ -64,19 +32,5 @@
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    justify-content: center;
-  }
-
-  .header__icon {
-    display: none;
-  }
-
-  .header__link {
-    margin-right: 15px;
   }
 }

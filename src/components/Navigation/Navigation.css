@@ -1,0 +1,39 @@
+.navigation {
+}
+
+.navigation__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigation__logo {
+  width: 30px;
+  height: 30px;
+  color: #e9f1f7ff;
+  margin-right: 25px;
+}
+
+.navigation__item {
+  transition: all 0.2s ease-in-out;
+}
+
+.navigation__link {
+  margin-right: 25px;
+  font-weight: 200;
+}
+
+.navigation__item:hover {
+  filter: contrast(1.2);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 767px) {
+  .navigation__list {
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+  }
+}
