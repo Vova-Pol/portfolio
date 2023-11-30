@@ -1,5 +1,5 @@
 .projects {
-  padding: 50px 80px 0 80px;
+  padding: 60px;
   background-color: #2274a5ff;
   color: #e9f1f7ff;
   display: flex;
@@ -17,16 +17,26 @@
 }
 
 .projects__projects-list {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: center;
-  column-gap: 20px;
+  column-gap: 30px;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  row-gap: 50px;
+  row-gap: 60px;
 }
 
 .projects__list-item {
   width: 45%;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .projects {
+    padding: 60px 30px;
+  }
+
+  .projects__list-item {
+    width: 100%;
+  }
 }

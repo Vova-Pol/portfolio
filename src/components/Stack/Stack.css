@@ -12,6 +12,7 @@
 .stack__back-front-list {
   display: flex;
   justify-content: space-around;
+  column-gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -151,4 +152,10 @@
 
 .macos {
   color: #848484;
+}
+
+@media screen and (max-width: 767px) {
+  .stack {
+    padding: 40px 30px;
+  }
 }

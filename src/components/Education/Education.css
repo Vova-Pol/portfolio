@@ -1,5 +1,5 @@
 .education {
-  padding: 50px 80px 15px 80px;
+  padding: 50px 60px;
   background-color: #e7dfc6ff;
   color: #131b23ff;
 }
@@ -22,7 +22,6 @@
   list-style: none;
   width: min(60rem, 100%);
   margin-inline: auto;
-  margin-bottom: 50px;
 }
 
 /* line */
@@ -168,5 +167,11 @@
   }
   .education__item:nth-child(odd) .education__item-title {
     border-radius: 10px 30px 30px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education {
+    padding: 50px 30px;
   }
 }

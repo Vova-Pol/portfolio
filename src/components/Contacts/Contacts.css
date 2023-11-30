@@ -1,5 +1,5 @@
 .contacts {
-  padding: 60px 80px;
+  padding: 60px;
   background-color: #e7dfc6ff;
   color: #e9f1f7ff;
 }
@@ -17,6 +17,7 @@
   padding: 20px 20px 50px 20px;
   display: flex;
   justify-content: space-around;
+  column-gap: 15px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -156,4 +157,10 @@
 .contacts__result-message_type_error {
   color: #ff5b57;
   opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    padding: 60px 30px;
+  }
 }

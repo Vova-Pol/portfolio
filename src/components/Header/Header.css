@@ -66,3 +66,17 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header__icon {
+    display: none;
+  }
+
+  .header__link {
+    margin-right: 15px;
+  }
+}

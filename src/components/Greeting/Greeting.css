@@ -1,5 +1,5 @@
 .greeting {
-  padding: 0 80px;
+  padding: 0 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,12 +78,15 @@
 
 .greeting__buttons-container {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
   align-items: center;
   column-gap: 10px;
   margin-bottom: 10px;
 }
 
 .greeting__link {
+  min-width: fit-content;
   padding: 10px 25px;
   border-radius: 25px;
   transition: all 0.3s ease;
@@ -113,4 +116,15 @@
 
 .greeting__success-icon_shown {
   opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .greeting {
+    padding: 0 30px;
+  }
+
+  .greeting__avatar {
+    width: 250px;
+    height: 250px;
+  }
 }
