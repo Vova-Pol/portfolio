@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navigation.css';
-import { Link } from 'react-router-dom';
 import { LiaLaptopCodeSolid } from 'react-icons/lia';
 
 export const Navigation = ({ handleLink = () => {} }) => {
@@ -11,41 +10,28 @@ export const Navigation = ({ handleLink = () => {} }) => {
           <LiaLaptopCodeSolid className="navigation__logo" />
         </li>
         <li className="navigation__item">
-          <Link to="/" className="navigation__link" onClick={handleLink}>
-            Главная
-          </Link>
-        </li>
-        <li className="navigation__item">
-          <Link
-            to="/#education"
+          <a
+            href="#education"
             className="navigation__link"
             onClick={handleLink}
           >
             Образование
-          </Link>
+          </a>
         </li>
         <li className="navigation__item">
-          <Link
-            to="/#projects"
-            className="navigation__link"
-            onClick={handleLink}
-          >
+          <a href="#projects" className="navigation__link" onClick={handleLink}>
             Проекты
-          </Link>
+          </a>
         </li>
         <li className="navigation__item">
-          <Link to="/#stack" className="navigation__link" onClick={handleLink}>
+          <a href="#stack" className="navigation__link" onClick={handleLink}>
             Стек
-          </Link>
+          </a>
         </li>
         <li className="navigation__item">
-          <Link
-            to="/#contacts"
-            className="navigation__link"
-            onClick={handleLink}
-          >
+          <a href="#contacts" className="navigation__link" onClick={handleLink}>
             Контакты
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
